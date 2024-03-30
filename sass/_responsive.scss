@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    /* Header */
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* INDEX - INICIO */
+    /* Banner */
+
+    .bannercontenido {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* contenedor-inicio */
+
+    .contenedor-ofertas-inicio {
+        margin: 5vh;
+        font-size: inherit;
+    }
+
+    .contenedor-imagenes-inicio,
+    .contenedor-ofertas h1 {
+        margin: 5vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer */
+
+    /* PÁGINA DE OFERTAS */
+
+    .card {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+}
